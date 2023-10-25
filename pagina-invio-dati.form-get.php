@@ -14,6 +14,8 @@ $parola = echo $GET ['parola'];
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    
+    <h1>Dati ricevuti</h1>
+    <h3>Testo: <?php echo $testo ?></h3>
+    <h3>Frase: <?php echo $parola ?></h3>
     </body>
 </html>
