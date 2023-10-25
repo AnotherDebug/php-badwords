@@ -1,7 +1,7 @@
 <?php
 
-$testo = echo $GET ['testo'];
-$parola = echo $GET ['parola'];
+$testo = $_GET ['testo'];
+$parola = $_GET ['parola'];
 
 ?>
 
